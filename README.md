@@ -1,17 +1,14 @@
-# Netflix Analysis Project
-### Project Overview
-This project analyzes a Netflix dataset to discover insights related to content types, genres, release years, user ratings, and more. By performing exploratory data analysis (EDA), the goal is to uncover patterns and trends that can guide strategic decisions for content acquisition and recommendations.
+# Netflix Analysis Project with Scala & Hadoop
+## Project Overview
+This project focuses on analyzing a Netflix dataset using Apache Hadoop for distributed data processing and Scala as the primary programming language. By leveraging Hadoop’s scalable storage (HDFS) and MapReduce or Spark jobs written in Scala, the goal is to uncover insights such as popular genres, release year distributions, user ratings patterns, and potential content recommendations—all at a large scale.
 
 ### Features
-Data Cleaning & Preprocessing: Handle missing values, remove duplicates, and standardize data formats.
-Exploratory Data Analysis (EDA): Examine distribution of movie genres, release years, and region-based availability.
-Visualizations: Generate charts and graphs (bar plots, histograms, heatmaps) to illustrate data insights clearly.
-Recommendation Prototype (Optional): Implement a simple content recommendation approach based on selected attributes (genre, cast, director, etc.).
+Distributed Data Processing: Utilize Hadoop’s HDFS for storing large amounts of data, enabling parallel computation across multiple nodes.
+Scala-Based Jobs: Implement data cleaning, transformation, and aggregation with Scala, running in a Hadoop ecosystem (MapReduce or Spark).
+Insightful Analysis: Explore correlations in titles, genres, release dates, and user ratings to generate actionable recommendations or strategic content decisions.
+Scalability & Efficiency: Process substantial data sets quickly and efficiently, thanks to Hadoop’s distributed computing model.
 ### Technologies & Tools
-Python 3
-Pandas, NumPy for data manipulation
-Matplotlib, Seaborn, or Plotly for visualizations
-Jupyter Notebook or Google Colab for interactive exploration
-### Dataset
-The dataset can be obtained from various sources, such as Kaggle (e.g., “Netflix Movies and TV Shows” dataset).
-Ensure the file (netflix_titles.csv or equivalent) is placed in the project’s data folder.
+Apache Hadoop (HDFS, YARN, MapReduce)
+Scala (2.12/2.13 or appropriate version)
+Apache Spark (optional, if you’re using Spark for distributed processing instead of pure MapReduce)
+SBT or Maven for building and managing Scala project
